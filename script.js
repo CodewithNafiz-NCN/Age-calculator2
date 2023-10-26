@@ -20,3 +20,13 @@ const inputday = Number(prompt("আপনার জন্মের তারি�
   
  //Output Visible result
  alert(calage);
+ //thanks for using alert and text
+ alert(`Thanks For Using Our Site 
+ 
+Other information-
+Site Version: 1.0.0.2
+First Release Date: 25/10/2023
+Employees: 2
+     - Lead Devloper: Nafiz.
+     - Helper: Sany.
+  ;) `)

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+ display: flex;
+ gap: 30px;
+ font-size: 27px;
+ margin-left: 2.33rem;
+ padding-top: 10px;
+}
+
+.nav-background {
+  height: 57px;
+  width: 22.5rem; /*max mobilescren*/
+  background-color: black;
+  margin-top: 41rem;
+}
+
+ul li .a1 .active {
+  background-color: white;
+  width: 20px;
+  height: 30px;
+}

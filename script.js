@@ -1,12 +1,22 @@
-const inputdata = Number(prompt("Input your birth year"))
-const iimputyear = Number(prompt("Input current year"))
-const inputmonth = Number(prompt("Input your month in number"))
-const inputday = Number(prompt("Input your day in number"))
+//current year, month and day data inputs
+const iimputCYear = Number(prompt("বর্তমান চলিত বছর ? in English!"))
+const iimputCMonth = Number(prompt("বর্তমান চলিত মাস কত সংখ্যায় ? in English!"))
+const iimputCDay = Number(prompt("বর্তমান চলিত তারিখ কত ? in English!"))
 
-  const calcage = iimputyear - inputdata;
-  const calcmonth = 12 - inputmonth;
-  const calcday = 30 - inputday;
-  const calage = `your age is ${calcage} Years ${calcmonth} Months and ${calcday} Days`
+// User Birth Year, Month and Day data inputs 
+const inputdata = Number(prompt("আপনার জন্মের বছর কত ? in English!"))
+const inputmonth = Number(prompt("আপনার জন্মের মাস কত সংখ্যায় ? in English!"))
+const inputday = Number(prompt("আপনার জন্মের তারিখ কত ? in English!"))
+
+//Calculation For Age
+  //Year calculatuon
+  const calcage = iimputCYear - inputdata;
+  //Month Calculation
+  const calcmonth = iimputCMonth - inputmonth;
+  //Day calculation
+  const calcday = iimputCDay - inputday;
+  //Result And Result text 
+  const calage = `Your age is ${calcage} Years ${calcmonth} Months and ${calcday} Days`
   
- 
+ //Output Visible result
  alert(calage);

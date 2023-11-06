@@ -24,8 +24,17 @@ document.querySelector(".button-1").addEventListener("click", function () {
   const calcday = iimputCDay - inputday;
 
     // the logic for claculator
+        if (calcday > 0) {
         resultText( `${calcage} Years ${calcmonth} Months & ${calcday} Days`);
+  } else if (calcday <= 0) {
+    resultText( `${calcage} Years ${calcmonth} Months`);
+  } else if (calcmonth <= 0) {
+    resultText( ` Only ${calcage} Years`);
+  } else {
+    resultText(`Something Went Wrong :/`);
+  }
 });
+
 
 
 //Output Visible result

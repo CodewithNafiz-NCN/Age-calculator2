@@ -27,11 +27,11 @@ document.querySelector(".button-1").addEventListener("click", function () {
   if (calcage >= 1) {
     if (calcmonth >= 1) {
       if (calcday >= 1) {
-        resultText(${calcage} Years ${calcmonth} Months & ${calcday} Days);
+        resultText(`${calcage} Years ${calcmonth} Months & ${calcday} Days`);
       }
     }
   } else {
-    resultText(Something Went Wrong :/);
+    resultText(`Something Went Wrong :/`);
   }
 });
 

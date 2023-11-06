@@ -23,17 +23,14 @@ document.querySelector(".button-1").addEventListener("click", function () {
   //Day calculation
   const calcday = iimputCDay - inputday;
 
-  // the logic for claculator
-  if (calcage >= 1) {
-    if (calcmonth >= 1) {
-      if (calcday >= 1) {
-        resultText(`${calcage} Years ${calcmonth} Months & ${calcday} Days`);
-      }
-    }
+    // the logic for claculator
+  if (calcday > 0) {
+        resultText( `${calcage} Years ${calcmonth} Months & ${calcday} Days`);
   } else {
     resultText(`Something Went Wrong :/`);
   }
 });
+
 
 console.log(typeof calcage);
 

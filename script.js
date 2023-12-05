@@ -19,7 +19,7 @@ document.querySelector(".button-1").addEventListener("click", function () {
   // year input claculation
   const calcage = 2023 - inputdata;
   //Month Calculation -- Have to Change
-  const calcmonth = 11 - inputmonth;
+  const calcmonth = 12 - inputmonth;
   //Day calculation
   const calcday = iimputCDay - inputday;
 
